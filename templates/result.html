@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Result</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css"/>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+        
+      .container h1 {
+        text-align: center;
+        font-weight: bold;
+      }
+
+      .container2 {
+        width: 50%;
+        margin: 0 auto;
+        margin-top: 1%;
+      }
+
+      .left {
+        width: 50%;
+        float: left;
+      }
+
+      .right {
+        width: 50%;
+        float: right;
+        margin-top: 17%;
+      }
+
+      .right h1, h5{
+        font-weight: bold;
+      }
+    </style>
+  </head>
+
+  <body>
+    <div class="container">
+      <h1 class="jumbotron bg-primary">Prediction Result</h1>
+      <br/><br/>
+    </div>
+
+    <div class="container2">
+      <div class="left">
+        {% if prediction %}
+        <img src="{{img_path}}" height="300px" width="300px" />
+        {% endif %}
+      </div>
+
+      <div class="right" line-height: 1.5>
+        {% if prediction %}
+        <h1><b>Vgg19 Model</b></h1>
+        <h5>Predicted Label is : <i> {{prediction}} </i></h5>
+        {% endif %} 
+        
+        {% if confidence or runtime %}
+        <h6>Angka Prediksi : <i> {{confidence}} </i> | Waktu Prediksi : <i> {{runtime}} detik</i></h6>
+        {% endif %}
+      </div>
+      <a href="{{ url_for('main') }}">Back to Main Page</a>
+    </div>
+  </body>
+</html>

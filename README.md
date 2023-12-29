@@ -3,7 +3,7 @@ Project ini digunakan untuk mendeteksi RPS (Rock, Paper, Scissors) untuk mengkla
 
 Link Dataset yang digunakan : https://drive.google.com/file/d/1T4BGxhHm7JXYm4XHaUPP-zZkbTwgC8LK/view?usp=drive_link
 
-Menggunakan Tranfer Learning pada klasifikasi citra gstur tangan dengan model VGG19
+Menggunakan Tranfer Learning pada klasifikasi citra gestur tangan dengan model VGG19
 
 # Overview Dataset
 Link dataset yang digunakan : https://drive.google.com/file/d/1T4BGxhHm7JXYm4XHaUPP-zZkbTwgC8LK/view?usp=drive_link

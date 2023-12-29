@@ -44,8 +44,6 @@ Predict Data dengan Model VGG19
 <img width="904" alt="image" src="https://github.com/nurissabila/Deploy-Machine-Learning-Models-RPS/assets/71714312/09e22fe5-c385-4bb0-846d-7bb93ea55c7a">
 
 
-<img width="960" alt="image" src="https://github.com/nurissabila/Deploy-Machine-Learning-Models-RPS/assets/71714312/ab951c99-d5a5-41fd-be5e-0f7980b89ccd">
-
 
 
 

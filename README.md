@@ -37,11 +37,11 @@ Predict Data dengan Model VGG19
 
 
 # Local Development
-<img width="907" alt="Screenshot 2023-12-15 112912" src="https://github.com/nurissabila/Deploy-Machine-Learning-Models/assets/71714312/04ac52ea-7b72-4167-a462-a454f1595459">
+<img width="904" alt="image" src="https://github.com/nurissabila/Deploy-Machine-Learning-Models-RPS/assets/71714312/fa59741c-0f77-4cb1-be57-82be02ab90e8">
 
 
 
-<img width="904" alt="Screenshot 2023-12-15 112933" src="https://github.com/nurissabila/Deploy-Machine-Learning-Models/assets/71714312/27e5d753-0486-4b4d-8498-3940ddde54f6">
+<img width="904" alt="image" src="https://github.com/nurissabila/Deploy-Machine-Learning-Models-RPS/assets/71714312/09e22fe5-c385-4bb0-846d-7bb93ea55c7a">
 
 
 
